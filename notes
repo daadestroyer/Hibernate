@@ -1,0 +1,80 @@
+Q.1 What is hibernate ORM tool ? Where we use hibernate ?
+----
+Ans:- 1. Hibernate is the java framework that simplifies the development of java application to interact with the database
+      2. Hibernate is the ORM(Object Relational Mapping) Tool. In which we map our object with our table 
+      3. Hibernate is the open source light weight , hibernate is based on POJO's		     
+      4. Hibernate is loosely couples it doesn't force us to implement or extends any other classes and interface 
+      5. Invented by Gavin King 2001
+      6. We can use hibernate with any type of application like desltop application , web application , spring boot appli
+----
+
+Q.2 What is @Entity , @Table , @Id
+----
+Ans:- 1. We used @Entity annotation above class name to make table of name which is same as class name , as well as 
+         through this we can also make same column name in table which is same as class variable name
+      
+      2. we can also change the Entity name like this
+      	 @Entity(name = "student_details)
+      
+      3. by using this our entity as well as table name is changed
+      
+      4. but if you want to change only table name then use @Table(name = "mystudents") through this we can change 
+      	 database table name only 
+      
+      5. We use @Id to make particlar coloumn as primary key	 
+      	 
+----
+
+Q.3 Some commonly used hibernate annotation ? 
+---
+Ans:- 1. @GeneratedValue 
+		 ---------------
+		 this annotation automatically generate primary key value suppose if you don't want to give 
+   	     id value but you want to increment id automatically then use this annotation
+   	  
+   	  2. @Column 
+   	     -------
+   	     This annotation we will use to change the name of particular column
+   	     
+   	  3. @Transient
+   	     ----------
+   	     If you don't want to store data of particular column then use this annotation ex. if you have 4 column but
+   	     you want to store data only on 1st , 2nd and 3rd column and don't want to store data on 4th column then use
+   	     this
+   	     
+   	  4. @Temporal
+   	  	 --------
+   	  	 To format date 
+   	  	 
+   	  5. @Lob
+   	     ----
+   	     To Tell hibernate that this data is very large object like (BLOB , CLOB)
+---
+
+
+Q.5 Difference b/w get() and load() ? 
+--- 
+Ans:- 1. get()
+ 		-------
+ 		 -> Get method of hibernate session returns null of object is not found in cache as well as on database
+ 		 -> get() involves database hit if object doesn't exist in session cache and return a fully initialized 
+ 		 	object which may involve several database call
+ 		 -> use this if you're not sure that object exist or not
+ 	 
+ 	  2. load()
+ 	    -------
+ 	     -> load() method throws ObjectNotFoundException if object is not found on cache as well as	on the database
+ 	     	but never return null
+ 	     -> load method can return proxy in place and only initialize the object or hit the database if any method
+ 	     	other than getId() is called on persistent or entity object . This last initialization increases the
+ 	     	performance 
+ 	     -> use this if you're sure that object exist
+---
+
+Q.5 Some other advance annotation ? 
+---
+Ans:-
+---
+
+
+ 

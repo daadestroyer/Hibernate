@@ -1,5 +1,6 @@
 hibernate.cfg.xml
 ===================
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-configuration PUBLIC
 	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
@@ -14,7 +15,9 @@ hibernate.cfg.xml
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="hbm2ddl.auto">update</property> <!-- to create table automatically -->
 		<property name="show_sql">true</property> <!-- to show the query fired by hibernate -->
+		<mapping class="com.hibernate.hiber.Student"/> <!-- hibernate understand to make this table into DB -->
 		
 	</session-factory>
 </hibernate-configuration>
+
 ======================
