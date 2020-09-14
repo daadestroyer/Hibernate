@@ -97,7 +97,12 @@ Ans:- @Embeddable Annotation intimate the hibernate to make the column of that c
 
 Q.6 Some other advance annotation ? 
 ---
-Ans:- 1. 
+Ans:- 1. @OneToOne
+  	  	 ---------
+  	  	 One to One mapping is when column of one table has relation with 1 column of second table
+         Here in this case Question 1001 What is java has only 1 answer which is 1111 java is     
+         programming language  . So if question 1001 have 2 answer then in that case it is One to Many mapping .
+          But in this case question 1001 have one answer means it have only one relation with the answer table 
 ---
 
 

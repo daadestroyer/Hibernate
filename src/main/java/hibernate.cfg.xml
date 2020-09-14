@@ -16,6 +16,8 @@
 		<property name="show_sql">true</property> <!-- to show the query fired by hibernate -->
 		<mapping class="com.hibernate.hiber.Student"/> <!-- hibernate understand to make this table into DB -->
 		<mapping class="com.hibernate.hiber.Address"/> <!-- hibernate understand to make this table into DB -->
+		<mapping class="com.hiber.map.Answer"/> <!-- hibernate understand to make this table into DB -->
+		<mapping class="com.hiber.map.Question"/> <!-- hibernate understand to make this table into DB -->
 		
 		
 	</session-factory>
