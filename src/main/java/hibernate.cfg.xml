@@ -9,11 +9,14 @@
 		<property name="connection.url">jdbc:mysql://localhost:3306/hibernate</property>
 		<property name="connection.username">shubham</property>
 		<property name="connection.password">shubham</property>
+		 
+        
 		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
 		<property name="hbm2ddl.auto">update</property> <!-- to create table automatically -->
 		<property name="show_sql">true</property> <!-- to show the query fired by hibernate -->
 		<mapping class="com.hibernate.hiber.Student"/> <!-- hibernate understand to make this table into DB -->
 		<mapping class="com.hibernate.hiber.Address"/> <!-- hibernate understand to make this table into DB -->
+		
 		
 	</session-factory>
 </hibernate-configuration>
