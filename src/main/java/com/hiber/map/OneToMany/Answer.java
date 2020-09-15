@@ -1,8 +1,9 @@
-package com.hiber.map;
+package com.hiber.map.OneToMany;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+
 
 @Entity
 public class Answer {
@@ -10,8 +11,7 @@ public class Answer {
 	@Column(name = "answer_id")
 	private int answerId;
 	private String answer;
-	
-	
+
 	public int getAnswerId() {
 		return answerId;
 	}
@@ -32,6 +32,7 @@ public class Answer {
 		super();
 		this.answerId = answerId;
 		this.answer = answer;
+
 	}
 
 	public Answer() {

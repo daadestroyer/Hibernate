@@ -103,7 +103,18 @@ Ans:- 1. @OneToOne
          Here in this case Question 1001 What is java has only 1 answer which is 1111 java is     
          programming language  . So if question 1001 have 2 answer then in that case it is One to Many mapping .
           But in this case question 1001 have one answer means it have only one relation with the answer table 
+          
+      2. @OnetoOne(mappedBy = "answer")
+         ------------------------------
+      
+      3. @OneToMany
+		 ----------
+		 
 ---
 
+
+![Screenshot 2020-09-14 223204](https://user-images.githubusercontent.com/48306820/93163773-90081e80-f735-11ea-892c-80449843f911.png)
+
+![Screenshot 2020-09-14 223204](https://user-images.githubusercontent.com/48306820/93163586-2556e300-f735-11ea-9828-3c0963fb3687.png)
 
  
