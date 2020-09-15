@@ -110,6 +110,12 @@ Ans:- 1. @OneToOne
       3. @OneToMany
 		 ----------
 		 
+	  4. @ManyToMany
+	  
+	  5.@JoinTable
+	  
+	  6.@JoinColumn
+		 
 ---
 
 

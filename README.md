@@ -25,3 +25,5 @@ hibernate.cfg.xml
 ![Screenshot 2020-09-14 223204](https://user-images.githubusercontent.com/48306820/93163773-90081e80-f735-11ea-892c-80449843f911.png)
 
 ![Screenshot 2020-09-14 223204](https://user-images.githubusercontent.com/48306820/93163586-2556e300-f735-11ea-9828-3c0963fb3687.png)
+
+![OneToMany](https://user-images.githubusercontent.com/48306820/93169120-0c086380-f742-11ea-8c64-8972803b6830.png)
